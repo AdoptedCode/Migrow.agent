@@ -1,6 +1,6 @@
 ![WhatsApp Image 2026-02-01 at 11 54 05 AM](https://github.com/user-attachments/assets/de7b32d1-c510-4ddc-a38d-afef15c0342b)
 
-Migro.agent
+MIGRO.AGENT
 
 A Python-first agentic AI system for autonomous support during headless e-commerce migrations
 
