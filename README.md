@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="![Logo](https://github.com/user-attachments/assets/b66c79cf-f734-40f6-81ff-c893513620aa)
+" alt="Migro.agent logo" width="180">
+</p>
+
 ![WhatsApp Image 2026-02-01 at 11 54 05 AM](https://github.com/user-attachments/assets/de7b32d1-c510-4ddc-a38d-afef15c0342b)
 
 MIGRO.AGENT
