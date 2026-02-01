@@ -111,51 +111,6 @@ Issue prioritization is based on objective metrics (revenue impact, customer cou
 No PII is used in decision-making logic
 All classification rules are auditable and version-controlled
 
-
-Quick Start
-Prerequisites
-
-Python 3.9+
-SQLite (or PostgreSQL for production)
-Access to n8n instance (optional, for logging)
-
-Installation
-bash# Clone repository
-git clone https://github.com/yourusername/migro-agent.git
-cd migro-agent
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-Configuration
-
-Copy example config files:
-
-bash   cp config/thresholds.example.yaml config/thresholds.yaml
-   cp config/integrations.example.yaml config/integrations.yaml
-
-Edit config/integrations.yaml with your API credentials (Slack, support system, n8n webhook)
-Adjust config/thresholds.yaml to set confidence thresholds and escalation rules
-
-Running the Agent
-bash# Dry-run mode (no real actions)
-python main.py --dry-run
-
-# Production mode
-python main.py
-
-# With verbose logging
-python main.py --verbose
-Testing
-bash# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=agent tests/
-
 Design Principles
 1. Code-First, Not Prompt-First
 All logic is implemented in version-controlled Python code. No critical decisions are delegated to LLM prompts or external AI services.
