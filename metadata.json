@@ -1,0 +1,5 @@
+{
+  "name": "Agentic Logger Dashboard",
+  "description": "A monitoring dashboard and integration hub for the Python Agent n8n logging pipeline.",
+  "requestFramePermissions": []
+}

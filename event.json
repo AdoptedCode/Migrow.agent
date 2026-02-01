@@ -1,0 +1,23 @@
+[
+  {
+    "merchant_id": "m_101",
+    "event_type": "support_ticket",
+    "error": "checkout_failed",
+    "details": "missing cartId",
+    "migration_stage": "post_cutover"
+  },
+  {
+    "merchant_id": "m_102",
+    "event_type": "api_error",
+    "error": "checkout_failed",
+    "details": "missing cartId",
+    "migration_stage": "post_cutover"
+  },
+  {
+    "merchant_id": "m_103",
+    "event_type": "api_error",
+    "error": "checkout_failed",
+    "details": "missing cartId",
+    "migration_stage": "post_cutover"
+  }
+]
